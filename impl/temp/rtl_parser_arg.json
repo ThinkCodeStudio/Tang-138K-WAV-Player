@@ -1,0 +1,37 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/sd_file_reader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/sd_reader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/sdcmd_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/_FPGA/WAVPlayer/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

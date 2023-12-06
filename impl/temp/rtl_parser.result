@@ -1,0 +1,66 @@
+[
+ {
+  "InstFile" : "D:/_FPGA/WAVPlayer/src/sd_file_reader.v",
+  "InstLine" : 12,
+  "InstName" : "sd_file_reader",
+  "ModuleFile" : "D:/_FPGA/WAVPlayer/src/sd_file_reader.v",
+  "ModuleLine" : 12,
+  "ModuleName" : "sd_file_reader",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/_FPGA/WAVPlayer/src/sd_file_reader.v",
+    "InstLine" : 362,
+    "InstName" : "u_sd_reader",
+    "ModuleFile" : "D:/_FPGA/WAVPlayer/src/sd_reader.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "sd_reader",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/_FPGA/WAVPlayer/src/sd_reader.v",
+      "InstLine" : 100,
+      "InstName" : "u_sdcmd_ctrl",
+      "ModuleFile" : "D:/_FPGA/WAVPlayer/src/sdcmd_ctrl.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "sdcmd_ctrl"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/_FPGA/WAVPlayer/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/_FPGA/WAVPlayer/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/_FPGA/WAVPlayer/src/top.v",
+    "InstLine" : 6,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "D:/_FPGA/WAVPlayer/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+  "InstLine" : 31158,
+  "InstName" : "DDR3_Memory_Interface_Top",
+  "ModuleFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+  "ModuleLine" : 31158,
+  "ModuleName" : "DDR3_Memory_Interface_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+    "InstLine" : 31243,
+    "InstName" : "gw3_top",
+    "ModuleFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
+   }
+  ]
+ }
+]
