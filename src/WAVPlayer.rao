@@ -1,0 +1,424 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk" trig_type="0" storage_depth="2048" window_num="1" capture_amount="2048" implementation="0" trigger_pos="0" module_name="top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus capture_enable="true" name="read_data[15:0]">
+                <Signal>read_data[15]</Signal>
+                <Signal>read_data[14]</Signal>
+                <Signal>read_data[13]</Signal>
+                <Signal>read_data[12]</Signal>
+                <Signal>read_data[11]</Signal>
+                <Signal>read_data[10]</Signal>
+                <Signal>read_data[9]</Signal>
+                <Signal>read_data[8]</Signal>
+                <Signal>read_data[7]</Signal>
+                <Signal>read_data[6]</Signal>
+                <Signal>read_data[5]</Signal>
+                <Signal>read_data[4]</Signal>
+                <Signal>read_data[3]</Signal>
+                <Signal>read_data[2]</Signal>
+                <Signal>read_data[1]</Signal>
+                <Signal>read_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="fifo_ram_module/rd_data[255:0]">
+                <Signal>fifo_ram_module/rd_data[255]</Signal>
+                <Signal>fifo_ram_module/rd_data[254]</Signal>
+                <Signal>fifo_ram_module/rd_data[253]</Signal>
+                <Signal>fifo_ram_module/rd_data[252]</Signal>
+                <Signal>fifo_ram_module/rd_data[251]</Signal>
+                <Signal>fifo_ram_module/rd_data[250]</Signal>
+                <Signal>fifo_ram_module/rd_data[249]</Signal>
+                <Signal>fifo_ram_module/rd_data[248]</Signal>
+                <Signal>fifo_ram_module/rd_data[247]</Signal>
+                <Signal>fifo_ram_module/rd_data[246]</Signal>
+                <Signal>fifo_ram_module/rd_data[245]</Signal>
+                <Signal>fifo_ram_module/rd_data[244]</Signal>
+                <Signal>fifo_ram_module/rd_data[243]</Signal>
+                <Signal>fifo_ram_module/rd_data[242]</Signal>
+                <Signal>fifo_ram_module/rd_data[241]</Signal>
+                <Signal>fifo_ram_module/rd_data[240]</Signal>
+                <Signal>fifo_ram_module/rd_data[239]</Signal>
+                <Signal>fifo_ram_module/rd_data[238]</Signal>
+                <Signal>fifo_ram_module/rd_data[237]</Signal>
+                <Signal>fifo_ram_module/rd_data[236]</Signal>
+                <Signal>fifo_ram_module/rd_data[235]</Signal>
+                <Signal>fifo_ram_module/rd_data[234]</Signal>
+                <Signal>fifo_ram_module/rd_data[233]</Signal>
+                <Signal>fifo_ram_module/rd_data[232]</Signal>
+                <Signal>fifo_ram_module/rd_data[231]</Signal>
+                <Signal>fifo_ram_module/rd_data[230]</Signal>
+                <Signal>fifo_ram_module/rd_data[229]</Signal>
+                <Signal>fifo_ram_module/rd_data[228]</Signal>
+                <Signal>fifo_ram_module/rd_data[227]</Signal>
+                <Signal>fifo_ram_module/rd_data[226]</Signal>
+                <Signal>fifo_ram_module/rd_data[225]</Signal>
+                <Signal>fifo_ram_module/rd_data[224]</Signal>
+                <Signal>fifo_ram_module/rd_data[223]</Signal>
+                <Signal>fifo_ram_module/rd_data[222]</Signal>
+                <Signal>fifo_ram_module/rd_data[221]</Signal>
+                <Signal>fifo_ram_module/rd_data[220]</Signal>
+                <Signal>fifo_ram_module/rd_data[219]</Signal>
+                <Signal>fifo_ram_module/rd_data[218]</Signal>
+                <Signal>fifo_ram_module/rd_data[217]</Signal>
+                <Signal>fifo_ram_module/rd_data[216]</Signal>
+                <Signal>fifo_ram_module/rd_data[215]</Signal>
+                <Signal>fifo_ram_module/rd_data[214]</Signal>
+                <Signal>fifo_ram_module/rd_data[213]</Signal>
+                <Signal>fifo_ram_module/rd_data[212]</Signal>
+                <Signal>fifo_ram_module/rd_data[211]</Signal>
+                <Signal>fifo_ram_module/rd_data[210]</Signal>
+                <Signal>fifo_ram_module/rd_data[209]</Signal>
+                <Signal>fifo_ram_module/rd_data[208]</Signal>
+                <Signal>fifo_ram_module/rd_data[207]</Signal>
+                <Signal>fifo_ram_module/rd_data[206]</Signal>
+                <Signal>fifo_ram_module/rd_data[205]</Signal>
+                <Signal>fifo_ram_module/rd_data[204]</Signal>
+                <Signal>fifo_ram_module/rd_data[203]</Signal>
+                <Signal>fifo_ram_module/rd_data[202]</Signal>
+                <Signal>fifo_ram_module/rd_data[201]</Signal>
+                <Signal>fifo_ram_module/rd_data[200]</Signal>
+                <Signal>fifo_ram_module/rd_data[199]</Signal>
+                <Signal>fifo_ram_module/rd_data[198]</Signal>
+                <Signal>fifo_ram_module/rd_data[197]</Signal>
+                <Signal>fifo_ram_module/rd_data[196]</Signal>
+                <Signal>fifo_ram_module/rd_data[195]</Signal>
+                <Signal>fifo_ram_module/rd_data[194]</Signal>
+                <Signal>fifo_ram_module/rd_data[193]</Signal>
+                <Signal>fifo_ram_module/rd_data[192]</Signal>
+                <Signal>fifo_ram_module/rd_data[191]</Signal>
+                <Signal>fifo_ram_module/rd_data[190]</Signal>
+                <Signal>fifo_ram_module/rd_data[189]</Signal>
+                <Signal>fifo_ram_module/rd_data[188]</Signal>
+                <Signal>fifo_ram_module/rd_data[187]</Signal>
+                <Signal>fifo_ram_module/rd_data[186]</Signal>
+                <Signal>fifo_ram_module/rd_data[185]</Signal>
+                <Signal>fifo_ram_module/rd_data[184]</Signal>
+                <Signal>fifo_ram_module/rd_data[183]</Signal>
+                <Signal>fifo_ram_module/rd_data[182]</Signal>
+                <Signal>fifo_ram_module/rd_data[181]</Signal>
+                <Signal>fifo_ram_module/rd_data[180]</Signal>
+                <Signal>fifo_ram_module/rd_data[179]</Signal>
+                <Signal>fifo_ram_module/rd_data[178]</Signal>
+                <Signal>fifo_ram_module/rd_data[177]</Signal>
+                <Signal>fifo_ram_module/rd_data[176]</Signal>
+                <Signal>fifo_ram_module/rd_data[175]</Signal>
+                <Signal>fifo_ram_module/rd_data[174]</Signal>
+                <Signal>fifo_ram_module/rd_data[173]</Signal>
+                <Signal>fifo_ram_module/rd_data[172]</Signal>
+                <Signal>fifo_ram_module/rd_data[171]</Signal>
+                <Signal>fifo_ram_module/rd_data[170]</Signal>
+                <Signal>fifo_ram_module/rd_data[169]</Signal>
+                <Signal>fifo_ram_module/rd_data[168]</Signal>
+                <Signal>fifo_ram_module/rd_data[167]</Signal>
+                <Signal>fifo_ram_module/rd_data[166]</Signal>
+                <Signal>fifo_ram_module/rd_data[165]</Signal>
+                <Signal>fifo_ram_module/rd_data[164]</Signal>
+                <Signal>fifo_ram_module/rd_data[163]</Signal>
+                <Signal>fifo_ram_module/rd_data[162]</Signal>
+                <Signal>fifo_ram_module/rd_data[161]</Signal>
+                <Signal>fifo_ram_module/rd_data[160]</Signal>
+                <Signal>fifo_ram_module/rd_data[159]</Signal>
+                <Signal>fifo_ram_module/rd_data[158]</Signal>
+                <Signal>fifo_ram_module/rd_data[157]</Signal>
+                <Signal>fifo_ram_module/rd_data[156]</Signal>
+                <Signal>fifo_ram_module/rd_data[155]</Signal>
+                <Signal>fifo_ram_module/rd_data[154]</Signal>
+                <Signal>fifo_ram_module/rd_data[153]</Signal>
+                <Signal>fifo_ram_module/rd_data[152]</Signal>
+                <Signal>fifo_ram_module/rd_data[151]</Signal>
+                <Signal>fifo_ram_module/rd_data[150]</Signal>
+                <Signal>fifo_ram_module/rd_data[149]</Signal>
+                <Signal>fifo_ram_module/rd_data[148]</Signal>
+                <Signal>fifo_ram_module/rd_data[147]</Signal>
+                <Signal>fifo_ram_module/rd_data[146]</Signal>
+                <Signal>fifo_ram_module/rd_data[145]</Signal>
+                <Signal>fifo_ram_module/rd_data[144]</Signal>
+                <Signal>fifo_ram_module/rd_data[143]</Signal>
+                <Signal>fifo_ram_module/rd_data[142]</Signal>
+                <Signal>fifo_ram_module/rd_data[141]</Signal>
+                <Signal>fifo_ram_module/rd_data[140]</Signal>
+                <Signal>fifo_ram_module/rd_data[139]</Signal>
+                <Signal>fifo_ram_module/rd_data[138]</Signal>
+                <Signal>fifo_ram_module/rd_data[137]</Signal>
+                <Signal>fifo_ram_module/rd_data[136]</Signal>
+                <Signal>fifo_ram_module/rd_data[135]</Signal>
+                <Signal>fifo_ram_module/rd_data[134]</Signal>
+                <Signal>fifo_ram_module/rd_data[133]</Signal>
+                <Signal>fifo_ram_module/rd_data[132]</Signal>
+                <Signal>fifo_ram_module/rd_data[131]</Signal>
+                <Signal>fifo_ram_module/rd_data[130]</Signal>
+                <Signal>fifo_ram_module/rd_data[129]</Signal>
+                <Signal>fifo_ram_module/rd_data[128]</Signal>
+                <Signal>fifo_ram_module/rd_data[127]</Signal>
+                <Signal>fifo_ram_module/rd_data[126]</Signal>
+                <Signal>fifo_ram_module/rd_data[125]</Signal>
+                <Signal>fifo_ram_module/rd_data[124]</Signal>
+                <Signal>fifo_ram_module/rd_data[123]</Signal>
+                <Signal>fifo_ram_module/rd_data[122]</Signal>
+                <Signal>fifo_ram_module/rd_data[121]</Signal>
+                <Signal>fifo_ram_module/rd_data[120]</Signal>
+                <Signal>fifo_ram_module/rd_data[119]</Signal>
+                <Signal>fifo_ram_module/rd_data[118]</Signal>
+                <Signal>fifo_ram_module/rd_data[117]</Signal>
+                <Signal>fifo_ram_module/rd_data[116]</Signal>
+                <Signal>fifo_ram_module/rd_data[115]</Signal>
+                <Signal>fifo_ram_module/rd_data[114]</Signal>
+                <Signal>fifo_ram_module/rd_data[113]</Signal>
+                <Signal>fifo_ram_module/rd_data[112]</Signal>
+                <Signal>fifo_ram_module/rd_data[111]</Signal>
+                <Signal>fifo_ram_module/rd_data[110]</Signal>
+                <Signal>fifo_ram_module/rd_data[109]</Signal>
+                <Signal>fifo_ram_module/rd_data[108]</Signal>
+                <Signal>fifo_ram_module/rd_data[107]</Signal>
+                <Signal>fifo_ram_module/rd_data[106]</Signal>
+                <Signal>fifo_ram_module/rd_data[105]</Signal>
+                <Signal>fifo_ram_module/rd_data[104]</Signal>
+                <Signal>fifo_ram_module/rd_data[103]</Signal>
+                <Signal>fifo_ram_module/rd_data[102]</Signal>
+                <Signal>fifo_ram_module/rd_data[101]</Signal>
+                <Signal>fifo_ram_module/rd_data[100]</Signal>
+                <Signal>fifo_ram_module/rd_data[99]</Signal>
+                <Signal>fifo_ram_module/rd_data[98]</Signal>
+                <Signal>fifo_ram_module/rd_data[97]</Signal>
+                <Signal>fifo_ram_module/rd_data[96]</Signal>
+                <Signal>fifo_ram_module/rd_data[95]</Signal>
+                <Signal>fifo_ram_module/rd_data[94]</Signal>
+                <Signal>fifo_ram_module/rd_data[93]</Signal>
+                <Signal>fifo_ram_module/rd_data[92]</Signal>
+                <Signal>fifo_ram_module/rd_data[91]</Signal>
+                <Signal>fifo_ram_module/rd_data[90]</Signal>
+                <Signal>fifo_ram_module/rd_data[89]</Signal>
+                <Signal>fifo_ram_module/rd_data[88]</Signal>
+                <Signal>fifo_ram_module/rd_data[87]</Signal>
+                <Signal>fifo_ram_module/rd_data[86]</Signal>
+                <Signal>fifo_ram_module/rd_data[85]</Signal>
+                <Signal>fifo_ram_module/rd_data[84]</Signal>
+                <Signal>fifo_ram_module/rd_data[83]</Signal>
+                <Signal>fifo_ram_module/rd_data[82]</Signal>
+                <Signal>fifo_ram_module/rd_data[81]</Signal>
+                <Signal>fifo_ram_module/rd_data[80]</Signal>
+                <Signal>fifo_ram_module/rd_data[79]</Signal>
+                <Signal>fifo_ram_module/rd_data[78]</Signal>
+                <Signal>fifo_ram_module/rd_data[77]</Signal>
+                <Signal>fifo_ram_module/rd_data[76]</Signal>
+                <Signal>fifo_ram_module/rd_data[75]</Signal>
+                <Signal>fifo_ram_module/rd_data[74]</Signal>
+                <Signal>fifo_ram_module/rd_data[73]</Signal>
+                <Signal>fifo_ram_module/rd_data[72]</Signal>
+                <Signal>fifo_ram_module/rd_data[71]</Signal>
+                <Signal>fifo_ram_module/rd_data[70]</Signal>
+                <Signal>fifo_ram_module/rd_data[69]</Signal>
+                <Signal>fifo_ram_module/rd_data[68]</Signal>
+                <Signal>fifo_ram_module/rd_data[67]</Signal>
+                <Signal>fifo_ram_module/rd_data[66]</Signal>
+                <Signal>fifo_ram_module/rd_data[65]</Signal>
+                <Signal>fifo_ram_module/rd_data[64]</Signal>
+                <Signal>fifo_ram_module/rd_data[63]</Signal>
+                <Signal>fifo_ram_module/rd_data[62]</Signal>
+                <Signal>fifo_ram_module/rd_data[61]</Signal>
+                <Signal>fifo_ram_module/rd_data[60]</Signal>
+                <Signal>fifo_ram_module/rd_data[59]</Signal>
+                <Signal>fifo_ram_module/rd_data[58]</Signal>
+                <Signal>fifo_ram_module/rd_data[57]</Signal>
+                <Signal>fifo_ram_module/rd_data[56]</Signal>
+                <Signal>fifo_ram_module/rd_data[55]</Signal>
+                <Signal>fifo_ram_module/rd_data[54]</Signal>
+                <Signal>fifo_ram_module/rd_data[53]</Signal>
+                <Signal>fifo_ram_module/rd_data[52]</Signal>
+                <Signal>fifo_ram_module/rd_data[51]</Signal>
+                <Signal>fifo_ram_module/rd_data[50]</Signal>
+                <Signal>fifo_ram_module/rd_data[49]</Signal>
+                <Signal>fifo_ram_module/rd_data[48]</Signal>
+                <Signal>fifo_ram_module/rd_data[47]</Signal>
+                <Signal>fifo_ram_module/rd_data[46]</Signal>
+                <Signal>fifo_ram_module/rd_data[45]</Signal>
+                <Signal>fifo_ram_module/rd_data[44]</Signal>
+                <Signal>fifo_ram_module/rd_data[43]</Signal>
+                <Signal>fifo_ram_module/rd_data[42]</Signal>
+                <Signal>fifo_ram_module/rd_data[41]</Signal>
+                <Signal>fifo_ram_module/rd_data[40]</Signal>
+                <Signal>fifo_ram_module/rd_data[39]</Signal>
+                <Signal>fifo_ram_module/rd_data[38]</Signal>
+                <Signal>fifo_ram_module/rd_data[37]</Signal>
+                <Signal>fifo_ram_module/rd_data[36]</Signal>
+                <Signal>fifo_ram_module/rd_data[35]</Signal>
+                <Signal>fifo_ram_module/rd_data[34]</Signal>
+                <Signal>fifo_ram_module/rd_data[33]</Signal>
+                <Signal>fifo_ram_module/rd_data[32]</Signal>
+                <Signal>fifo_ram_module/rd_data[31]</Signal>
+                <Signal>fifo_ram_module/rd_data[30]</Signal>
+                <Signal>fifo_ram_module/rd_data[29]</Signal>
+                <Signal>fifo_ram_module/rd_data[28]</Signal>
+                <Signal>fifo_ram_module/rd_data[27]</Signal>
+                <Signal>fifo_ram_module/rd_data[26]</Signal>
+                <Signal>fifo_ram_module/rd_data[25]</Signal>
+                <Signal>fifo_ram_module/rd_data[24]</Signal>
+                <Signal>fifo_ram_module/rd_data[23]</Signal>
+                <Signal>fifo_ram_module/rd_data[22]</Signal>
+                <Signal>fifo_ram_module/rd_data[21]</Signal>
+                <Signal>fifo_ram_module/rd_data[20]</Signal>
+                <Signal>fifo_ram_module/rd_data[19]</Signal>
+                <Signal>fifo_ram_module/rd_data[18]</Signal>
+                <Signal>fifo_ram_module/rd_data[17]</Signal>
+                <Signal>fifo_ram_module/rd_data[16]</Signal>
+                <Signal>fifo_ram_module/rd_data[15]</Signal>
+                <Signal>fifo_ram_module/rd_data[14]</Signal>
+                <Signal>fifo_ram_module/rd_data[13]</Signal>
+                <Signal>fifo_ram_module/rd_data[12]</Signal>
+                <Signal>fifo_ram_module/rd_data[11]</Signal>
+                <Signal>fifo_ram_module/rd_data[10]</Signal>
+                <Signal>fifo_ram_module/rd_data[9]</Signal>
+                <Signal>fifo_ram_module/rd_data[8]</Signal>
+                <Signal>fifo_ram_module/rd_data[7]</Signal>
+                <Signal>fifo_ram_module/rd_data[6]</Signal>
+                <Signal>fifo_ram_module/rd_data[5]</Signal>
+                <Signal>fifo_ram_module/rd_data[4]</Signal>
+                <Signal>fifo_ram_module/rd_data[3]</Signal>
+                <Signal>fifo_ram_module/rd_data[2]</Signal>
+                <Signal>fifo_ram_module/rd_data[1]</Signal>
+                <Signal>fifo_ram_module/rd_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="fifo_ram_module/cmd[2:0]">
+                <Signal>fifo_ram_module/cmd[2]</Signal>
+                <Signal>fifo_ram_module/cmd[1]</Signal>
+                <Signal>fifo_ram_module/cmd[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="fifo_ram_module/app_addr[28:0]">
+                <Signal>fifo_ram_module/app_addr[28]</Signal>
+                <Signal>fifo_ram_module/app_addr[27]</Signal>
+                <Signal>fifo_ram_module/app_addr[26]</Signal>
+                <Signal>fifo_ram_module/app_addr[25]</Signal>
+                <Signal>fifo_ram_module/app_addr[24]</Signal>
+                <Signal>fifo_ram_module/app_addr[23]</Signal>
+                <Signal>fifo_ram_module/app_addr[22]</Signal>
+                <Signal>fifo_ram_module/app_addr[21]</Signal>
+                <Signal>fifo_ram_module/app_addr[20]</Signal>
+                <Signal>fifo_ram_module/app_addr[19]</Signal>
+                <Signal>fifo_ram_module/app_addr[18]</Signal>
+                <Signal>fifo_ram_module/app_addr[17]</Signal>
+                <Signal>fifo_ram_module/app_addr[16]</Signal>
+                <Signal>fifo_ram_module/app_addr[15]</Signal>
+                <Signal>fifo_ram_module/app_addr[14]</Signal>
+                <Signal>fifo_ram_module/app_addr[13]</Signal>
+                <Signal>fifo_ram_module/app_addr[12]</Signal>
+                <Signal>fifo_ram_module/app_addr[11]</Signal>
+                <Signal>fifo_ram_module/app_addr[10]</Signal>
+                <Signal>fifo_ram_module/app_addr[9]</Signal>
+                <Signal>fifo_ram_module/app_addr[8]</Signal>
+                <Signal>fifo_ram_module/app_addr[7]</Signal>
+                <Signal>fifo_ram_module/app_addr[6]</Signal>
+                <Signal>fifo_ram_module/app_addr[5]</Signal>
+                <Signal>fifo_ram_module/app_addr[4]</Signal>
+                <Signal>fifo_ram_module/app_addr[3]</Signal>
+                <Signal>fifo_ram_module/app_addr[2]</Signal>
+                <Signal>fifo_ram_module/app_addr[1]</Signal>
+                <Signal>fifo_ram_module/app_addr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="fifo_ram_module/state[3:0]">
+                <Signal>fifo_ram_module/state[3]</Signal>
+                <Signal>fifo_ram_module/state[2]</Signal>
+                <Signal>fifo_ram_module/state[1]</Signal>
+                <Signal>fifo_ram_module/state[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="fifo_ram_module/count[31:0]">
+                <Signal>fifo_ram_module/count[31]</Signal>
+                <Signal>fifo_ram_module/count[30]</Signal>
+                <Signal>fifo_ram_module/count[29]</Signal>
+                <Signal>fifo_ram_module/count[28]</Signal>
+                <Signal>fifo_ram_module/count[27]</Signal>
+                <Signal>fifo_ram_module/count[26]</Signal>
+                <Signal>fifo_ram_module/count[25]</Signal>
+                <Signal>fifo_ram_module/count[24]</Signal>
+                <Signal>fifo_ram_module/count[23]</Signal>
+                <Signal>fifo_ram_module/count[22]</Signal>
+                <Signal>fifo_ram_module/count[21]</Signal>
+                <Signal>fifo_ram_module/count[20]</Signal>
+                <Signal>fifo_ram_module/count[19]</Signal>
+                <Signal>fifo_ram_module/count[18]</Signal>
+                <Signal>fifo_ram_module/count[17]</Signal>
+                <Signal>fifo_ram_module/count[16]</Signal>
+                <Signal>fifo_ram_module/count[15]</Signal>
+                <Signal>fifo_ram_module/count[14]</Signal>
+                <Signal>fifo_ram_module/count[13]</Signal>
+                <Signal>fifo_ram_module/count[12]</Signal>
+                <Signal>fifo_ram_module/count[11]</Signal>
+                <Signal>fifo_ram_module/count[10]</Signal>
+                <Signal>fifo_ram_module/count[9]</Signal>
+                <Signal>fifo_ram_module/count[8]</Signal>
+                <Signal>fifo_ram_module/count[7]</Signal>
+                <Signal>fifo_ram_module/count[6]</Signal>
+                <Signal>fifo_ram_module/count[5]</Signal>
+                <Signal>fifo_ram_module/count[4]</Signal>
+                <Signal>fifo_ram_module/count[3]</Signal>
+                <Signal>fifo_ram_module/count[2]</Signal>
+                <Signal>fifo_ram_module/count[1]</Signal>
+                <Signal>fifo_ram_module/count[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">fifo_ram_module/cmd_ready</Signal>
+            <Signal capture_enable="true">fifo_ram_module/cmd_en</Signal>
+            <Signal capture_enable="true">fifo_ram_module/wr_ready</Signal>
+            <Signal capture_enable="true">fifo_ram_module/wr_en</Signal>
+            <Signal capture_enable="true">fifo_ram_module/rd_data_valid</Signal>
+            <Signal capture_enable="true">fifo_ram_module/fifo_read_full</Signal>
+            <Signal capture_enable="true">fifo_ram_module/fifo_write_empty</Signal>
+            <Signal capture_enable="true">fifo_ram_module/fifo_read_almost_empty</Signal>
+            <Signal capture_enable="true">fifo_ram_module/fifo_write_rd_en</Signal>
+            <Signal capture_enable="true">fifo_ram_module/fifo_read_wr_en</Signal>
+            <Signal capture_enable="true">fifo_ram_module/fifo_write_full</Signal>
+            <Signal capture_enable="true">fifo_ram_module/fifo_read_empty</Signal>
+            <Signal capture_enable="true">read_en</Signal>
+            <Bus capture_enable="true" name="state[3:0]">
+                <Signal>state[3]</Signal>
+                <Signal>state[2]</Signal>
+                <Signal>state[1]</Signal>
+                <Signal>state[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>init_calib_complete</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1000101101011000</GAO_ID>
+</GAO_CONFIG>

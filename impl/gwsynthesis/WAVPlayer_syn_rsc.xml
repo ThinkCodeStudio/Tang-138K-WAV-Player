@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="11" Alu="7" Lut="14">
+    <SubModule name="gw_gao_inst_0" Register="1651" Alu="10" Lut="716" Bsram="40"/>
+    <SubModule name="fifo_ram_module" Register="84" Alu="48" Lut="171">
+        <SubModule name="ddr_module" Register="5040" Alu="248" Lut="3600" Bsram="24"/>
+        <SubModule name="fifo_write" Register="41" Alu="4" Lut="36" Bsram="8"/>
+        <SubModule name="fifo_read" Register="65" Alu="16" Lut="543" Bsram="8"/>
+        <SubModule name="pll"/>
+    </SubModule>
+</Module>

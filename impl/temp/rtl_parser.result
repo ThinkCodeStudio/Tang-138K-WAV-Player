@@ -37,29 +37,75 @@
   "SubInsts" : [
    {
     "InstFile" : "D:/_FPGA/WAVPlayer/src/top.v",
-    "InstLine" : 6,
-    "InstName" : "your_instance_name",
-    "ModuleFile" : "D:/_FPGA/WAVPlayer/src/gowin_pll/gowin_pll.v",
-    "ModuleLine" : 10,
-    "ModuleName" : "Gowin_PLL"
-   }
-  ]
- },
- {
-  "InstFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
-  "InstLine" : 31158,
-  "InstName" : "DDR3_Memory_Interface_Top",
-  "ModuleFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
-  "ModuleLine" : 31158,
-  "ModuleName" : "DDR3_Memory_Interface_Top",
-  "SubInsts" : [
-   {
-    "InstFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
-    "InstLine" : 31243,
-    "InstName" : "gw3_top",
-    "ModuleFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+    "InstLine" : 65,
+    "InstName" : "fifo_ram_module",
+    "ModuleFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram.v",
     "ModuleLine" : 1,
-    "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
+    "ModuleName" : "fifo_ram",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram.v",
+      "InstLine" : 131,
+      "InstName" : "ddr_module",
+      "ModuleFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+      "ModuleLine" : 31158,
+      "ModuleName" : "DDR3_Memory_Interface_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+        "InstLine" : 31243,
+        "InstName" : "gw3_top",
+        "ModuleFile" : "D:/_FPGA/WAVPlayer/src/ddr3_memory_interface/ddr3_memory_interface.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram.v",
+      "InstLine" : 180,
+      "InstName" : "fifo_write",
+      "ModuleFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram_write/fifo_ram_write.v",
+      "ModuleLine" : 414,
+      "ModuleName" : "fifo_ram_write",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram_write/fifo_ram_write.v",
+        "InstLine" : 437,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram_write/fifo_ram_write.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo.fifo_ram_write"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram.v",
+      "InstLine" : 192,
+      "InstName" : "fifo_read",
+      "ModuleFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram_read/fifo_ram_read.v",
+      "ModuleLine" : 2035,
+      "ModuleName" : "fifo_ram_read",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram_read/fifo_ram_read.v",
+        "InstLine" : 2060,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram_read/fifo_ram_read.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo.fifo_ram_read"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/_FPGA/WAVPlayer/src/fifo_ram.v",
+      "InstLine" : 205,
+      "InstName" : "pll",
+      "ModuleFile" : "D:/_FPGA/WAVPlayer/src/gowin_pll/gowin_pll.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_PLL"
+     }
+    ]
    }
   ]
  }
