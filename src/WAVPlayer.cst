@@ -5,7 +5,7 @@
 //Part Number: GW5AST-LV138FPG676AC1/I0
 //Device: GW5AST-138
 //Device Version: B
-//Created Time: Fri 12 08 15:32:38 2023
+//Created Time: Thu 01 11 14:29:38 2024
 
 IO_LOC "ddr_ba[2]" K3;
 IO_PORT "ddr_ba[2]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=12 BANK_VCCIO=1.5;
@@ -139,8 +139,16 @@ IO_LOC "ddr_dqs[1]" H7,G7;
 IO_PORT "ddr_dqs[1]" IO_TYPE=SSTL15D PULL_MODE=NONE DRIVE=8 BANK_VCCIO=1.5;
 IO_LOC "ddr_dqs[0]" J4,H4;
 IO_PORT "ddr_dqs[0]" IO_TYPE=SSTL15D PULL_MODE=NONE DRIVE=8 BANK_VCCIO=1.5;
+IO_LOC "sd_file_found" L20;
+IO_PORT "sd_file_found" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "sd_clk" D23;
+IO_PORT "sd_clk" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
 IO_LOC "init_calib_complete" R26;
 IO_PORT "init_calib_complete" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "sd_cmd" D24;
+IO_PORT "sd_cmd" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "sd_data" H23;
+IO_PORT "sd_data" PULL_MODE=NONE BANK_VCCIO=3.3;
 IO_LOC "rstn" K16;
 IO_PORT "rstn" PULL_MODE=NONE BANK_VCCIO=3.3;
 IO_LOC "clk" P16;

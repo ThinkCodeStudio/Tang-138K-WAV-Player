@@ -56,14 +56,14 @@ table.detail_table td.label { min-width: 100px; width: 8%;}
 <tr>
 <td class="label">Design File</td>
 <td>D:\_FPGA\WAVPlayer\src\ddr3_memory_interface\ddr3_memory_interface.v<br>
+D:\_FPGA\WAVPlayer\src\fifo_ram.v<br>
+D:\_FPGA\WAVPlayer\src\fifo_ram_read\fifo_ram_read.v<br>
+D:\_FPGA\WAVPlayer\src\fifo_ram_write\fifo_ram_write.v<br>
 D:\_FPGA\WAVPlayer\src\gowin_pll\gowin_pll.v<br>
 D:\_FPGA\WAVPlayer\src\sd_file_reader.v<br>
 D:\_FPGA\WAVPlayer\src\sd_reader.v<br>
 D:\_FPGA\WAVPlayer\src\sdcmd_ctrl.v<br>
 D:\_FPGA\WAVPlayer\src\top.v<br>
-D:\_FPGA\WAVPlayer\src\fifo_ram_write\fifo_ram_write.v<br>
-D:\_FPGA\WAVPlayer\src\fifo_ram_read\fifo_ram_read.v<br>
-D:\_FPGA\WAVPlayer\src\fifo_ram.v<br>
 D:\ProgramFiles\Gowin\Gowin_V1.9.9\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v<br>
 D:\ProgramFiles\Gowin\Gowin_V1.9.9\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v<br>
 D:\ProgramFiles\Gowin\Gowin_V1.9.9\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v<br>
@@ -95,7 +95,7 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Fri Dec  8 17:27:32 2023
+<td>Thu Jan 11 15:26:38 2024
 </td>
 </tr>
 <tr>
@@ -111,11 +111,11 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label">Synthesis Process</td>
-<td>Running parser:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s, Peak memory usage = 1733.883MB<br/>Running netlist conversion:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 0MB<br/>Running device independent optimization:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 0: CPU time = 0h 0m 0.546s, Elapsed time = 0h 0m 0.55s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 1: CPU time = 0h 0m 0.375s, Elapsed time = 0h 0m 0.348s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 2: CPU time = 0h 0m 0.687s, Elapsed time = 0h 0m 0.697s, Peak memory usage = 1733.883MB<br/>Running inference:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 0: CPU time = 0h 0m 0.281s, Elapsed time = 0h 0m 0.271s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 1: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.004s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 2: CPU time = 0h 0m 0.078s, Elapsed time = 0h 0m 0.082s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 3: CPU time = 0h 0m 0.031s, Elapsed time = 0h 0m 0.024s, Peak memory usage = 1733.883MB<br/>Running technical mapping:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 0: CPU time = 0h 0m 0.578s, Elapsed time = 0h 0m 0.575s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 1: CPU time = 0h 0m 0.203s, Elapsed time = 0h 0m 0.214s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 2: CPU time = 0h 0m 0.093s, Elapsed time = 0h 0m 0.092s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 3: CPU time = 0h 0m 4s, Elapsed time = 0h 0m 4s, Peak memory usage = 1733.883MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 4: CPU time = 0h 0m 0.406s, Elapsed time = 0h 0m 0.404s, Peak memory usage = 1733.883MB<br/>Generate output files:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0.984s, Elapsed time = 0h 0m 1s, Peak memory usage = 1733.883MB<br/></td>
+<td>Running parser:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 3s, Elapsed time = 0h 0m 4s, Peak memory usage = 1588.426MB<br/>Running netlist conversion:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 0MB<br/>Running device independent optimization:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 0: CPU time = 0h 0m 0.953s, Elapsed time = 0h 0m 0.954s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 1: CPU time = 0h 0m 0.5s, Elapsed time = 0h 0m 0.471s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 2: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s, Peak memory usage = 1588.426MB<br/>Running inference:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 0: CPU time = 0h 0m 0.64s, Elapsed time = 0h 0m 0.62s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 1: CPU time = 0h 0m 0.093s, Elapsed time = 0h 0m 0.088s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 2: CPU time = 0h 0m 0.109s, Elapsed time = 0h 0m 0.109s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 3: CPU time = 0h 0m 0.031s, Elapsed time = 0h 0m 0.037s, Peak memory usage = 1588.426MB<br/>Running technical mapping:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 0: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 1: CPU time = 0h 0m 0.421s, Elapsed time = 0h 0m 0.411s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 2: CPU time = 0h 0m 0.328s, Elapsed time = 0h 0m 0.341s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 3: CPU time = 0h 0m 16s, Elapsed time = 0h 0m 15s, Peak memory usage = 1588.426MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 4: CPU time = 0h 0m 0.671s, Elapsed time = 0h 0m 0.709s, Peak memory usage = 1588.426MB<br/>Generate output files:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s, Peak memory usage = 1588.426MB<br/></td>
 </tr>
 <tr>
 <td class="label">Total Time and Memory Usage</td>
-<td>CPU time = 0h 0m 11s, Elapsed time = 0h 0m 11s, Peak memory usage = 1733.883MB</td>
+<td>CPU time = 0h 0m 25s, Elapsed time = 0h 0m 25s, Peak memory usage = 1588.426MB</td>
 </tr>
 </table>
 <h1><a name="resource">Resource</a></h1>
@@ -127,19 +127,19 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label"><b>I/O Port </b></td>
-<td>78</td>
+<td>82</td>
 </tr>
 <tr>
 <td class="label"><b>I/O Buf </b></td>
-<td>73</td>
+<td>77</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspIBUF</td>
-<td>5</td>
+<td>6</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspOBUF</td>
-<td>27</td>
+<td>29</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspTBUF</td>
@@ -147,7 +147,7 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspIOBUF</td>
-<td>32</td>
+<td>33</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspELVDS_OBUF</td>
@@ -159,7 +159,7 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label"><b>Register </b></td>
-<td>6892</td>
+<td>7954</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFSE</td>
@@ -167,31 +167,31 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFRE</td>
-<td>732</td>
+<td>919</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFPE</td>
-<td>117</td>
+<td>136</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFCE</td>
-<td>6041</td>
+<td>6897</td>
 </tr>
 <tr>
 <td class="label"><b>LUT </b></td>
-<td>5029</td>
+<td>6807</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
-<td>699</td>
+<td>957</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
-<td>2090</td>
+<td>2676</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
-<td>2240</td>
+<td>3174</td>
 </tr>
 <tr>
 <td class="label"><b>MUX </b></td>
@@ -203,19 +203,19 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label"><b>ALU </b></td>
-<td>333</td>
+<td>819</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspALU</td>
-<td>333</td>
+<td>819</td>
 </tr>
 <tr>
 <td class="label"><b>INV </b></td>
-<td>43</td>
+<td>46</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspINV</td>
-<td>43</td>
+<td>46</td>
 </tr>
 <tr>
 <td class="label"><b>IOLOGIC </b></td>
@@ -236,6 +236,22 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspIODELAY</td>
 <td>32</td>
+</tr>
+<tr>
+<td class="label"><b>DSP </b></td>
+<td></td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspMULTALU27X18</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspMULT12X12</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspMULT27X36</td>
+<td>4</td>
 </tr>
 <tr>
 <td class="label"><b>BSRAM </b></td>
@@ -287,13 +303,13 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label">Logic</td>
-<td>5413(5080 LUT, 333 ALU) / 138240</td>
-<td>4%</td>
+<td>7680(6861 LUT, 819 ALU) / 138240</td>
+<td>6%</td>
 </tr>
 <tr>
 <td class="label">Register</td>
-<td>6892 / 139140</td>
-<td>5%</td>
+<td>7954 / 139140</td>
+<td>6%</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp--Register as Latch</td>
@@ -302,8 +318,8 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp--Register as FF</td>
-<td>6892 / 139140</td>
-<td>5%</td>
+<td>7954 / 139140</td>
+<td>6%</td>
 </tr>
 <tr>
 <td class="label">BSRAM</td>
@@ -450,8 +466,8 @@ D:\_FPGA\WAVPlayer\impl\gwsynthesis\RTL_GAO\gw_gao_top.v<br>
 <td>1</td>
 <td>clk</td>
 <td>50.0(MHz)</td>
-<td>173.3(MHz)</td>
-<td>9</td>
+<td>63.7(MHz)</td>
+<td>19</td>
 <td>TOP</td>
 </tr>
 <tr>

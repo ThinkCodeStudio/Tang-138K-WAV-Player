@@ -6,6 +6,18 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "D:/_FPGA/WAVPlayer/src/fifo_ram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/fifo_ram_read/fifo_ram_read.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/_FPGA/WAVPlayer/src/fifo_ram_write/fifo_ram_write.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "D:/_FPGA/WAVPlayer/src/gowin_pll/gowin_pll.v",
    "Type" : "verilog"
   },
@@ -26,15 +38,11 @@
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/_FPGA/WAVPlayer/src/fifo_ram_write/fifo_ram_write.v",
+   "Path" : "D:/_FPGA/WAVPlayer/src/pt8211.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/_FPGA/WAVPlayer/src/fifo_ram_read/fifo_ram_read.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/_FPGA/WAVPlayer/src/fifo_ram.v",
+   "Path" : "D:/_FPGA/WAVPlayer/src/wav_player.v",
    "Type" : "verilog"
   }
  ],

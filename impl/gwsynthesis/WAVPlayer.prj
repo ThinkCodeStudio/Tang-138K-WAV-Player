@@ -5,14 +5,14 @@
     <Device id="GW5AST-138B" package="FCPBGA676A" speed="1" partNumber="GW5AST-LV138FPG676AC1/I0"/>
     <FileList>
         <File path="D:\_FPGA\WAVPlayer\src\ddr3_memory_interface\ddr3_memory_interface.v" type="verilog"/>
+        <File path="D:\_FPGA\WAVPlayer\src\fifo_ram.v" type="verilog"/>
+        <File path="D:\_FPGA\WAVPlayer\src\fifo_ram_read\fifo_ram_read.v" type="verilog"/>
+        <File path="D:\_FPGA\WAVPlayer\src\fifo_ram_write\fifo_ram_write.v" type="verilog"/>
         <File path="D:\_FPGA\WAVPlayer\src\gowin_pll\gowin_pll.v" type="verilog"/>
         <File path="D:\_FPGA\WAVPlayer\src\sd_file_reader.v" type="verilog"/>
         <File path="D:\_FPGA\WAVPlayer\src\sd_reader.v" type="verilog"/>
         <File path="D:\_FPGA\WAVPlayer\src\sdcmd_ctrl.v" type="verilog"/>
         <File path="D:\_FPGA\WAVPlayer\src\top.v" type="verilog"/>
-        <File path="D:\_FPGA\WAVPlayer\src\fifo_ram_write\fifo_ram_write.v" type="verilog"/>
-        <File path="D:\_FPGA\WAVPlayer\src\fifo_ram_read\fifo_ram_read.v" type="verilog"/>
-        <File path="D:\_FPGA\WAVPlayer\src\fifo_ram.v" type="verilog"/>
         <File path="D:\ProgramFiles\Gowin\Gowin_V1.9.9\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v" type="gao"/>
         <File path="D:\ProgramFiles\Gowin\Gowin_V1.9.9\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v" type="gao"/>
         <File path="D:\ProgramFiles\Gowin\Gowin_V1.9.9\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v" type="gao"/>

@@ -10,10 +10,12 @@
         <File path="src/fifo_ram_read/fifo_ram_read.v" type="file.verilog" enable="1"/>
         <File path="src/fifo_ram_write/fifo_ram_write.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/pt8211.v" type="file.verilog" enable="1"/>
         <File path="src/sd_file_reader.v" type="file.verilog" enable="1"/>
         <File path="src/sd_reader.v" type="file.verilog" enable="1"/>
         <File path="src/sdcmd_ctrl.v" type="file.verilog" enable="1"/>
         <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/wav_player.v" type="file.verilog" enable="1"/>
         <File path="src/WAVPlayer.cst" type="file.cst" enable="1"/>
         <File path="src/WAVPlayer.sdc" type="file.sdc" enable="1"/>
         <File path="src/WAVPlayer.rao" type="file.gao" enable="1"/>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Register="11" Alu="7" Lut="14">
-    <SubModule name="gw_gao_inst_0" Register="1651" Alu="10" Lut="716" Bsram="40"/>
-    <SubModule name="fifo_ram_module" Register="84" Alu="48" Lut="171">
+<Module name="top" Register="3" Lut="7">
+    <SubModule name="gw_gao_inst_0" Register="1666" Alu="10" Lut="747" Bsram="40"/>
+    <SubModule name="sd_reader" Register="747" Alu="478" Lut="1276" MULTALU27X18="2" MULT12X12="1" MULT27X36="4">
+        <SubModule name="u_sd_reader" Register="158" Lut="299">
+            <SubModule name="u_sdcmd_ctrl" Register="150" Alu="15" Lut="184"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="fifo_ram_module" Register="84" Alu="48" Lut="169">
         <SubModule name="ddr_module" Register="5040" Alu="248" Lut="3600" Bsram="24"/>
         <SubModule name="fifo_write" Register="41" Alu="4" Lut="36" Bsram="8"/>
         <SubModule name="fifo_read" Register="65" Alu="16" Lut="543" Bsram="8"/>

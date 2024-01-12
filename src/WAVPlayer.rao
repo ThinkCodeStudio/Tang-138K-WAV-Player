@@ -375,11 +375,17 @@
                 <Signal>state[1]</Signal>
                 <Signal>state[0]</Signal>
             </Bus>
+            <Signal capture_enable="true">sd_file_found</Signal>
         </SignalList>
         <Triggers>
             <Trigger index="0">
                 <SignalList>
-                    <Signal>init_calib_complete</Signal>
+                    <Bus restorename="state[3:0]">
+                        <Signal>state[3]</Signal>
+                        <Signal>state[2]</Signal>
+                        <Signal>state[1]</Signal>
+                        <Signal>state[0]</Signal>
+                    </Bus>
                 </SignalList>
             </Trigger>
             <Trigger index="1"/>
@@ -399,7 +405,7 @@
             <Trigger index="15"/>
         </Triggers>
         <MatchUnits>
-            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0000" value1="0000" trigger="0"/>
             <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
             <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
             <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
@@ -420,5 +426,5 @@
             <Expression>M0</Expression>
         </Expressions>
     </AoCore>
-    <GAO_ID>1000101101011000</GAO_ID>
+    <GAO_ID>0111001100011110</GAO_ID>
 </GAO_CONFIG>

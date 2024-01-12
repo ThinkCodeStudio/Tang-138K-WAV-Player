@@ -4,7 +4,7 @@
 -cst D:\_FPGA\WAVPlayer\src\WAVPlayer.cst
 -cfg D:\_FPGA\WAVPlayer\impl\pnr\device.cfg
 -sdc D:\_FPGA\WAVPlayer\src\WAVPlayer.sdc
--gao_crc 1000101101011000
+-gao_crc 0111001100011110
 -bit
 -tr
 -ph
