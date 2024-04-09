@@ -1,5 +1,13 @@
 [
  {
+  "InstFile" : "D:/_FPGA/WAVPlayer/src/pt8211.v",
+  "InstLine" : 2,
+  "InstName" : "pt8211",
+  "ModuleFile" : "D:/_FPGA/WAVPlayer/src/pt8211.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "pt8211"
+ },
+ {
   "InstFile" : "D:/_FPGA/WAVPlayer/src/top.v",
   "InstLine" : 1,
   "InstName" : "top",
